@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my protofolio</title>
+    <style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #111;
+    color: #fff;
+}
+    .top-bar {
+      height: 60px;
+      background: #222;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 40px;
+      font-size: 13px;
+      letter-spacing: 0.5px;
+    }
+.top-bar .logo{
+    font-weight:600;
+}
+.nav-links {
+    display: flex;
+    gap :30px;
+    font-size : 12px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #fff;
+} 
+.nav-links a:hover{
+    color: #f39c12;
+}
+ .hero {
+      display: grid;
+      grid-template-columns: 1.1fr 1.3fr;
+      min-height: calc(100vh - 60px);
+    }
+
+    .hero-left {
+      background: #eee;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hero-left img {
+      max-width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    .hero-right {
+      background: #181818;
+      padding: 80px 80px 60px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .hero-right h1 {
+      font-size: 70px;
+      line-height: 1;
+      margin-bottom: 10px;
+    }
+
+}
+  .hero-right h1 span {
+      display: block;
+    }
+
+    .hero-right .underline {
+      margin: 25px 0 35px;
+      height: 2px;
+      width: 120px;
+      background: #fff;
+    }
+
+    .hero-right p {
+      max-width: 420px;
+      font-size: 12px;
+      color: #c9c9c9;
+      margin-bottom: 35px;
+    }
+
+    .buttons {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+
+    .btn-primary {
+      background: #fff;
+      color: #111;
+      border: none;
+      padding: 10px 26px;
+      font-size: 12px;
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+    }
+    .btn-secondary {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: transparent;
+      border: none;
+      color: #fff;
+      font-size: 12px;
+      cursor: pointer;
+    }
+
+
+
+</style>
+</head>
+<body>
+    <header class="top-bar">
+      <div class="logo">Bongu RamCharan</div>
+      <nav class="nav-links">
+        <a href="#">home</a>
+        <a href="#">about</a>
+        <a href="#">photo</a>
+         <a href="#">contact</a>
+           </nav>       
+    </header>
+    <main class="hero">
+        <section class="hero-left">
+        <img src="WhatsApp Image 2025-12-07 at 12.23.54_9aea1bea.jpg" alt="Bongu RamCharan">
+        </section>
+        <section class="hero-right">
+        <h1>
+            <span>My</span>
+            <span> Portofolio</span></h1>
+            <div class="underline"></div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati velit cum maiores iusto reiciendis, sunt quia a est, repellat nostrum corporis? Minus excepturi veniam fugiat ipsa, enim ad officia ipsam.
+        </p>
+        <div class="buttons">
+        <buttton class="btn-primary">Explore now</buttton>
+        <button class="btn-secondary">
+            <span class="play">play video</span>
+        </button>
+        </div>
+        </section>
+    </main>
+</body>
+</html>
